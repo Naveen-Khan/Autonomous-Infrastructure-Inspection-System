@@ -229,13 +229,6 @@ Input (Image / Video)
 | pothole_rust.pt | Pothole | 89.2% | 86.4% | 88.0% | 0.877 |
 | pothole_rust.pt | Corrosion | 82.5% | 79.1% | 80.8% | 0.807 |
 
-### Inference Speed
-
-| Hardware | Model | Speed |
-|---|---|---|
-| NVIDIA GPU (T4) | Both models | ~30ms / frame |
-| CPU (Intel i7) | Both models | ~370ms / frame |
-
 ---
 
 ## 🛠️ Tech Stack
@@ -251,19 +244,6 @@ Input (Image / Video)
 | [NumPy](https://numpy.org) | Array operations |
 
 ---
-
-## 📦 Requirements
-
-```txt
-streamlit>=1.32.0
-ultralytics>=8.0.0
-opencv-python>=4.8.0
-Pillow>=10.0.0
-numpy>=1.24.0
-reportlab>=4.0.0
-torch>=2.0.0
-torchvision>=0.15.0
-```
 
 Install all at once:
 
@@ -284,20 +264,6 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 References
-
-- Munawar et al. (2022). *Image-Based Crack Detection Approaches: A Comprehensive Review.* Infrastructures.
-- Ultralytics. (2023). [YOLOv8 Documentation](https://docs.ultralytics.com)
-- Roboflow Universe. [Pothole Detection Dataset](https://universe.roboflow.com)
-- Concrete Crack Segmentation Dataset. [Mendeley Data](https://data.mendeley.com)
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🤝 Contributing
 
