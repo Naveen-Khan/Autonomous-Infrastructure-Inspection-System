@@ -9,7 +9,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **AI-powered road and structural defect detection using deep learning.**  
-Detects **Cracks · Potholes · Corrosion** from images and drone video in real time.
+Detects **Cracks · Potholes · Corrosion** from images and drone video
 
 </div>
 
@@ -55,12 +55,6 @@ This system automates detection of three critical defect types using two YOLOv8 
 - ⚡ **Real-time Ready** — GPU inference at 55+ FPS
 
 ---
-
-## 🎬 Demo
-
-```
-Upload Image/Video → Run Detection → View Results → Download PDF Report
-```
 
 **Detection output example:**
 
